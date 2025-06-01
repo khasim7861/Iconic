@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Mechanical Gaming Keyboard",
+        "price": 89.99,
+        "category": "keyboards",
+        "image": "images/keybord0.jpg",
+        "rating": 5,
+        "featured": true,
+        "description": "RGB backlit mechanical keyboard with customizable macros and anti-ghosting technology."
+    },
+    {
+        "id": 2,
+        "name": "Wireless Gaming Mouse",
+        "price": 59.99,
+        "category": "mice",
+        "image": "images/mouse1.jpg",
+        "rating": 4,
+        "featured": true,
+        "description": "High precision wireless gaming mouse with adjustable DPI and ergonomic design."
+    },
+    {
+        "id": 3,
+        "name": "Noise Cancelling Gaming Headset",
+        "price": 129.99,
+        "category": "headsets",
+        "image": "images/headset1.jpg",
+        "rating": 5,
+        "featured": true,
+        "description": "7.1 surround sound gaming headset with noise cancellation and retractable mic."
+    },
+    {
+        "id": 4,
+        "name": "Pro Gaming Controller",
+        "price": 69.99,
+        "category": "controllers",
+        "image": "images/controller1.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Wireless gaming controller with customizable buttons and ergonomic grip."
+    },
+    {
+        "id": 5,
+        "name": "Compact Mechanical Keyboard",
+        "price": 79.99,
+        "category": "keyboards",
+        "image": "images/keybord1.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Tenkeyless mechanical keyboard with RGB lighting and durable switches."
+    },
+    {
+        "id": 6,
+        "name": "MMO Gaming Mouse",
+        "price": 49.99,
+        "category": "mice",
+        "image": "images/mouse2.jpg",
+        "rating": 3,
+        "featured": false,
+        "description": "MMO gaming mouse with 12 programmable side buttons and adjustable weights."
+    },
+    {
+        "id": 7,
+        "name": "Wireless Gaming Headset",
+        "price": 99.99,
+        "category": "headsets",
+        "image": "images/headset2.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Wireless gaming headset with 50mm drivers and 20-hour battery life."
+    },
+    {
+        "id": 8,
+        "name": "Fighting Game Controller",
+        "price": 49.99,
+        "category": "controllers",
+        "image": "images/controller2.jpg",
+        "rating": 5,
+        "featured": false,
+        "description": "Arcade-style fight stick controller with tournament-grade components."
+    },
+    {
+        "id": 9,
+        "name": "RGB Gaming Mouse Pad",
+        "price": 29.99,
+        "category": "accessories",
+        "image": "images/pad.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Large RGB mouse pad with non-slip rubber base and customizable lighting."
+    },
+    {
+        "id": 10,
+        "name": "Gaming Chair",
+        "price": 249.99,
+        "category": "accessories",
+        "image": "images/chair.jpg",
+        "rating": 5,
+        "featured": false,
+        "description": "Ergonomic gaming chair with lumbar support and adjustable armrests."
+    },
+    {
+        "id": 11,
+        "name": "Streaming Microphone",
+        "price": 89.99,
+        "category": "accessories",
+        "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 5,
+        "featured": false,
+        "description": "Professional condenser microphone with pop filter for streaming and gaming."
+    },
+    {
+        "id": 12,
+        "name": "Gaming Laptop Stand",
+        "price": 39.99,
+        "category": "accessories",
+        "image": "images/stand.jpg",
+        "rating": 3,
+        "featured": false,
+        "description": "Adjustable laptop stand with cooling fans for improved gaming performance."
+    },
+    {
+        "id": 13,
+        "name": "Ultra-Thin Keyboard",
+        "price": 59.99,
+        "category": "keyboards",
+        "image": "images/keybord2.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Slim-profile keyboard with quiet low-profile keys and USB connectivity."
+    },
+    {
+        "id": 14,
+        "name": "Ergonomic Keyboard",
+        "price": 99.99,
+        "category": "keyboards",
+        "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 4,
+        "featured": false,
+        "description": "Split-design ergonomic keyboard to reduce wrist strain during long gaming sessions."
+    },
+    {
+        "id": 15,
+        "name": "Budget Gaming Mouse",
+        "price": 24.99,
+        "category": "mice",
+        "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 3,
+        "featured": false,
+        "description": "Affordable wired gaming mouse with 6 buttons and adjustable DPI up to 3200."
+    },
+    {
+        "id": 16,
+        "name": "High DPI Gaming Mouse",
+        "price": 79.99,
+        "category": "mice",
+        "image": "images/mouse3.jpg",
+        "rating": 5,
+        "featured": false,
+        "description": "Precision gaming mouse with 16000 DPI optical sensor and customizable weights."
+    },
+    {
+        "id": 17,
+        "name": "Open-Back Gaming Headset",
+        "price": 149.99,
+        "category": "headsets",
+        "image": "images/headset3.jpg",
+        "rating": 5,
+        "featured": false,
+        "description": "High-fidelity open-back headset for competitive gaming with wide soundstage."
+    },
+    {
+        "id": 18,
+        "name": "Budget Gaming Headset",
+        "price": 39.99,
+        "category": "headsets",
+        "image": "images/headset4.jpg",
+        "rating": 3,
+        "featured": false,
+        "description": "Affordable stereo gaming headset with noise-cancelling microphone."
+    },
+    {
+        "id": 19,
+        "name": "Elite Gaming Controller",
+        "price": 149.99,
+        "category": "controllers",
+        "image": "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        "rating": 5,
+        "featured": false,
+        "description": "Premium controller with interchangeable components and hair trigger locks."
+    },
+    {
+        "id": 20,
+        "name": "Retro Gaming Controller",
+        "price": 29.99,
+        "category": "controllers",
+        "image": "images/controller3.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Classic-style USB controller for retro gaming enthusiasts."
+    },
+    {
+        "id": 21,
+        "name": "Gaming Desk",
+        "price": 199.99,
+        "category": "accessories",
+        "image": "images/desk.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Large L-shaped gaming desk with cable management and headphone hook."
+    },
+    {
+        "id": 22,
+        "name": "Monitor Stand",
+        "price": 49.99,
+        "category": "accessories",
+        "image": "images/monitor.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Dual monitor stand with height adjustment and 360° rotation."
+    },
+    {
+        "id": 23,
+        "name": "RGB Keyboard Wrist Rest",
+        "price": 19.99,
+        "category": "accessories",
+        "image": "images/rgb.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Ergonomic gel wrist rest with customizable RGB lighting for keyboards."
+    },
+    {
+        "id": 24,
+        "name": "Controller Charging Station",
+        "price": 34.99,
+        "category": "accessories",
+        "image": "images/charging.jpg",
+        "rating": 4,
+        "featured": false,
+        "description": "Dual controller charging dock with LED charging indicators."
+    }
+]

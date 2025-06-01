@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Premium Gaming Accessories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>  
+    <header>
+        <div class="logo">
+            <h1><span>Iconic</span> <span>Game </span><span>Zone</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button id="open-login" class="btn login-btn">Login</button>
+            <button id="open-signup" class="btn signup-btn">Sign Up</button>
+        </div>
+        <div class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Level Up Your Gaming Experience</h2>
+                <p>Premium gaming accessories for professional and casual gamers</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="featured" class="featured">
+            <h2>Featured Products</h2>
+            <div class="featured-products">
+                <!-- Featured products will be loaded by JavaScript -->
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <h2>Our Products</h2>
+            <div class="product-filters">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="keyboards">Keyboards</button>
+                <button class="filter-btn" data-category="mice">Mice</button>
+                <button class="filter-btn" data-category="headsets">Headsets</button>
+                <button class="filter-btn" data-category="controllers">Controllers</button>
+            </div>
+            <div class="product-grid">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About GameZone</h2>
+            <p>GameZone is your one-stop shop for premium gaming accessories. Founded in 2023 by passionate gamers, we understand what it takes to get that competitive edge. All our products are carefully selected to ensure top performance and durability.</p>
+            <div class="about-features">
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Quality Guaranteed</h3>
+                    <p>All products go through rigorous testing before reaching you</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Fast Shipping</h3>
+                    <p>Get your gear within 2-3 business days</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is always ready to assist you</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <div class="cart-modal">
+        <div class="cart-content">
+            <span class="close-cart">&times;</span>
+            <h2>Your Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be loaded by JavaScript -->
+            </div>
+            <div class="cart-total">
+                <h3>Total: $<span>0</span></h3>
+                <button class="btn checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+<div class="auth-modal" id="login-modal">
+    <div class="auth-content">
+        <span class="close-auth">&times;</span>
+        <h2>Login to GameZone</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" required>
+            </div>
+            <div class="form-group">
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" required>
+            </div>
+            <div class="form-options">
+                <label>
+                    <input type="checkbox"> Remember me
+                </label>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn auth-submit">Login</button>
+            <div class="auth-switch">
+                Don't have an account? <a href="#" class="switch-to-signup">Sign up</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Signup Modal -->
+<div class="auth-modal" id="signup-modal">
+    <div class="auth-content">
+        <span class="close-auth">&times;</span>
+        <h2>Create Your Account</h2>
+        <form id="signup-form">
+            <div class="form-group">
+                <label for="signup-name">Full Name</label>
+                <input type="text" id="signup-name" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" required>
+            </div>
+            <div class="form-group">
+                <label for="signup-confirm">Confirm Password</label>
+                <input type="password" id="signup-confirm" required>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" required> I agree to the <a href="#">Terms & Conditions</a>
+                </label>
+            </div>
+            <button type="submit" class="btn auth-submit">Sign Up</button>
+            <div class="auth-switch">
+                Already have an account? <a href="#" class="switch-to-login">Login</a>
+            </div>
+        </form> 
+
+    </div>
+</div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GameZone</h3>
+                <p>Premium gaming accessories for the modern gamer</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 GameZone. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
